@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lin_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px98"
+            android:background="@drawable/img_sign_cnn" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/px140"
+            android:layout_marginTop="@dimen/px25"
+            android:text="News"
+            android:textColor="#ff8b02"
+            android:textSize="@dimen/px40" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sl_radio"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/lin_top"
+        android:layout_marginLeft="@dimen/px60"
+        android:layout_marginRight="@dimen/px60">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay0"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1.You are my life"
+                    android:textColor="#4eb7ff"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2.Narcissus theorem"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3.A special dinner"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay3"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4.The gift of fire"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay4"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5.Magic mustard seeds"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay5"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6.I will draw a rainbow for you"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay6"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7.Super Hero"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay7"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8.travel with me"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay8"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9.The best time in life"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay9"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10.Thought is the source of strength"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/lin_radioplay10"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px140"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_radio_name10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11.Throwing starfish people"
+                    android:textColor="#c3c3c3"
+                    android:textSize="@dimen/px40" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/px1"
+                android:background="#d5d5d5" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px375"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/img_bac_playraradio">
+
+        <ImageButton
+            android:id="@+id/ibt_play_pravious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px60"
+            android:layout_marginTop="@dimen/px126"
+            android:background="@drawable/ima_radio_privous" />
+
+        <ToggleButton
+            android:id="@+id/tb_play_radio_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/px50"
+            android:layout_marginTop="@dimen/px114"
+            android:layout_toEndOf="@+id/ibt_play_pravious"
+            android:background="@drawable/bg_radio_play_selector"
+            android:textOff=""
+            android:textOn="" />
+
+        <ImageButton
+            android:id="@+id/ibt_play_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/px50"
+            android:layout_marginTop="@dimen/px126"
+            android:layout_toEndOf="@+id/tb_play_radio_program"
+            android:background="@drawable/ima_play_radio_radio_next" />
+
+        <SeekBar
+            android:id="@+id/sb_play_progress_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ibt_play_next"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/px5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="@dimen/px30"
+            android:layout_toEndOf="@+id/ibt_play_next"
+            android:maxHeight="@dimen/px6"
+            android:minHeight="@dimen/px6"
+            android:paddingLeft="@dimen/px60"
+            android:progressDrawable="@drawable/seekbar_progress_style_radio"
+            android:thumb="@drawable/ima_play_thumdl" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/sb_play_progress_radio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/px30"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/im_volume" />
+
+            <SeekBar
+                android:id="@+id/volume_seekbar"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="@dimen/px6"
+                android:minHeight="@dimen/px6"
+                android:paddingLeft="@dimen/px60"
+                android:progressDrawable="@drawable/seekbar_progress_style_radio" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

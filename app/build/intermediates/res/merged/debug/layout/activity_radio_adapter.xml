@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px1"
+        android:background="#d5d5d5" />
+
+    <TextView
+        android:id="@+id/tv_radio_name0"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px140"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="1.You are my life"
+        android:textColor="#4eb7ff"
+        android:textSize="@dimen/px40" />
+
+</LinearLayout>
